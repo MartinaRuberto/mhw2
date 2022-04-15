@@ -1,0 +1,108 @@
+/* TODO: inserite il CSS necessario per completare il MHW! */
+
+
+.choice-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+
+.choice-grid .class{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    border:solid #dcdcdc 1px ;
+   
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.choice-grid div img{
+    width: 100%;
+}
+
+@media (max-width: 700px) {
+
+    article {
+        width: 95%;
+      }
+
+      header div span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100%;
+        height: 50px;
+        width: 50px;
+        font-weight: bold;
+        margin: 0 3px;
+        transform: rotate(-30deg);
+      }
+
+}
+
+@media (max-width: 500px) {
+
+    .choice-grid div{
+        width: 49%;
+    }
+}
+
+
+.choice-grid .foto_evidenza{
+
+    background-color: #cfe3ff ;
+
+}
+
+.choice-grid .overlay{
+background-color: rgba(255, 255, 255, .6);
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+}
+
+.hidden{
+display: none;
+}
+
+
+.question-name {
+    align-items: center;
+    background-image: url("images/sfondo.jpg");
+}
+#result{
+    margin-top: 40px;
+}
+
+#title{
+
+    margin-bottom: 18px;
+}
+
+#button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color:black;
+    background-color: #cecece;
+    border: solid black;
+    height: 50px;
+   width: 100%;
+   margin-bottom: 20px;
+   margin-top: 18px;
+
+}
+
+#button:hover{
+    background-color: #e0e0e0;
+}
+
+
